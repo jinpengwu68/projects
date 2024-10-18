@@ -1,0 +1,4 @@
+1. under your work folder do "git init"
+2. git clone, git remote add origin  https://github.com/sdfds/sd.git
+3. get token form github website -> jinpengwu68 -> settings -> developer settings -> personal access tokens -> tokens -> generate new token -> selet all
+4. git add . -> git commit -m "update"-> git push -> then put user name and token as password
