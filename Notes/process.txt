@@ -1,0 +1,51 @@
+安装Nodejs
+手动安装：
+打开浏览器并访问 Node.js 官网。
+下载适用于您操作系统的最新版本的 Node.js 安装程序。
+执行安装程序并按照提示进行操作。
+
+NVM 安装
+当使用 nvm（Node Version Manager）安装 Node.js 时，您可以轻松地管理多个 Node.js 版本，并能够在它们之间进行切换。以下是使用 nvm 安装 Node.js 的教程：
+
+步骤 1: 安装 nvm
+打开终端（命令提示符或终端窗口）。
+使用如下命令安装 nvm：
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+或者，如果您使用的是 wget：
+
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+这将下载并运行 nvm 的安装脚本。
+
+步骤 2: 重新加载终端配置文件
+安装完成后，您需要重新加载终端的配置文件，以便使 nvm 命令生效。您可以执行以下命令来重新加载配置文件：
+
+source ~/.bashrc
+如果您使用的是 zsh，则执行：
+
+source ~/.zshrc
+步骤 3: 安装 Node.js
+使用 nvm 安装您想要的 Node.js 版本。例如，要安装最新的 LTS 版本，可以运行：
+
+nvm install --lts
+如果您想安装特定版本，可以用版本号替换 --lts 后面的参数，例如：
+
+nvm install 14.18.0
+安装完成后，您可以使用以下命令查看已安装的 Node.js 版本：
+
+nvm ls
+windows安装nvm
+参考 https://github.com/coreybutler/nvm-windows
+
+Docker 安装并配置源
+安装
+打开Docker Desktop官网下载你对应操作系统最新的安装包，然后按照步骤安装即可，安装完成之后打开Docker Desktop
+
+安装镜像
+你在Docker Desktop中搜索镜像可能仍然无法得到结果，因为他的接口并没有遵循配置。你可以从命令行进行下载然后再Dockert Desktop中进行使用。
+图片描述
+比如我现在只有两个镜像，我打开windows powershell，然后输入：
+
+docker pull nginx:latest
+图片描述
+这时候在Docker Desktop上就能看到镜像了：
