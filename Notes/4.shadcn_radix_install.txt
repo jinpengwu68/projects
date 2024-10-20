@@ -1,0 +1,15 @@
+1.shadcn/ui install
+
+npx shadcn@latest init -d
+
+shadcn 完成
+
+2 shadcn 装组建
+
+pnpm dlx shadcn@latest add button
+
+3. import 组建
+import { Button } from "@/components/ui/button";
+<Button>Click me</Button>
+
+
