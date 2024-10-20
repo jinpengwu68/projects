@@ -1,0 +1,13 @@
+1.  先装 pnpm 因为速度快 装之前先 update npm “npm install -g npm@10.9.0"
+2.  以后用 pnpm  ， 1 先创建 next ‘pnpm create next-app@latest’
+3.  What is your project named? … image-sass
+✔ Would you like to use TypeScript? …  Yes
+✔ Would you like to use ESLint? …  Yes
+✔ Would you like to use Tailwind CSS? … Yes
+✔ Would you like to use `src/` directory? …  Yes
+✔ Would you like to use App Router? (recommended) …  Yes
+✔ Would you like to customize the default import alias (@/*)? … No 
+
+完成安装
+
+用 use
